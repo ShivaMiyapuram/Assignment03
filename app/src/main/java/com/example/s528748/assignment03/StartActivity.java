@@ -22,8 +22,13 @@ public class StartActivity extends AppCompatActivity {
           intent = new Intent(this, GallonEntryActivity.class);
           startActivity(intent);
         }
-        else{
+        else if(v.getId() == R.id.button2){
             intent  = new Intent(this, PriceDisplayActivity.class);
+            intent.putExtra("pricePerGal", 2.45);
+            startActivity(intent);
+        }
+        else if(v.getId() == R.id.button4){
+            intent  = new Intent(this, ComputeGallonsRequiredActivity.class);
             startActivity(intent);
         }
     }

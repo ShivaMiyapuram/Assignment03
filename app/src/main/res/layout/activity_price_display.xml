@@ -8,13 +8,35 @@
     tools:context="com.example.s528748.assignment03.PriceDisplayActivity"
     android:gravity="center">
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unleaded"
+        android:layout_gravity="center"/>
 
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Plus" />
 
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Premium" />
+
+        </LinearLayout>>
     <TextView
         android:id="@+id/textView99"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Price:"
+        android:text="Price: "
         android:layout_gravity="center"
         android:layout_margin="20dp"
         android:gravity="center"/>
@@ -27,6 +49,8 @@
         android:layout_gravity="center"
         android:text="Go to Start"
         android:onClick="goToStartActivity"/>
+
+
 
 
 

@@ -18,7 +18,7 @@
         </activity>
         <activity android:name=".GallonEntryActivity" />
         <activity android:name=".PriceDisplayActivity" />
-        <activity android:name=".GallonsRequiredActivity"></activity>
+        <activity android:name=".ComputeGallonsRequiredActivity"></activity>
     </application>
 
 </manifest>

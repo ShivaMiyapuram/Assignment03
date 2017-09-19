@@ -4,33 +4,37 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.s528748.assignment03.StartActivity"
     android:orientation="vertical"
-    android:gravity="center">
+    android:gravity="center"
+    tools:context="com.example.s528748.assignment03.ComputeGallonsRequiredActivity">
 
-    <Button
-        android:id="@+id/button1"
+
+    <EditText
+        android:id="@+id/editText3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Gallon Entry"
-        android:layout_margin="25dp"
-        android:onClick="onClick"
+        android:ems="15"
+        android:layout_gravity="center"
+        android:inputType="numberDecimal"
+        android:hint="Enter distance in miles"
          />
 
-    <Button
-        android:id="@+id/button2"
+    <EditText
+        android:id="@+id/editText2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Price Display"
+        android:layout_gravity="center"
         android:layout_margin="25dp"
-        android:onClick="onClick"
-         />
+        android:ems="15"
+        android:inputType="numberDecimal"
+        android:hint="Enter mileage of your vehicle" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Compute Gallons required"
-        android:layout_margin="25dp"
-        android:onClick="onClick"/>
+        android:text="Gallons Required"
+        android:onClick="gallonsRequired"/>
+
+
 </LinearLayout>
