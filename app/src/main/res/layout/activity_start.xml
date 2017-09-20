@@ -10,27 +10,30 @@
 
     <Button
         android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Gallon Entry"
+        android:layout_width="140dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/gas_image"
         android:layout_margin="25dp"
         android:onClick="onClick"
          />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Price Display"
+        android:layout_width="160dp"
+        android:layout_height="0dp"
+        android:background="@drawable/dollar_sign"
+        android:layout_weight="1"
         android:layout_margin="25dp"
         android:onClick="onClick"
          />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Compute Gallons required"
+        android:layout_width="140dp"
+        android:layout_height="0dp"
+        android:background="@drawable/dollar_question_mark"
+        android:layout_weight="1"
         android:layout_margin="25dp"
         android:onClick="onClick"/>
 </LinearLayout>
