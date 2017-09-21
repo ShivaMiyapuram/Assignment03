@@ -8,7 +8,18 @@
     android:orientation="vertical"
     android:gravity="center">
 
-    <Button
+    <TextView
+        android:id="@+id/textView1000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_margin="10dp"
+        android:fontFamily="serif"
+        android:textColor="@color/colorPrimary"
+        android:text="Travel Planner"
+        android:gravity="center"/>
+
+    <ImageButton
         android:id="@+id/button1"
         android:layout_width="140dp"
         android:layout_height="0dp"
@@ -16,9 +27,10 @@
         android:background="@drawable/gas_image"
         android:layout_margin="25dp"
         android:onClick="onClick"
+        android:scaleType="fitXY"
          />
 
-    <Button
+    <ImageButton
         android:id="@+id/button2"
         android:layout_width="160dp"
         android:layout_height="0dp"
@@ -26,12 +38,14 @@
         android:layout_weight="1"
         android:layout_margin="25dp"
         android:onClick="onClick"
+        android:scaleType="fitXY"
          />
 
-    <Button
+    <ImageButton
         android:id="@+id/button4"
         android:layout_width="140dp"
         android:layout_height="0dp"
+        android:scaleType="fitXY"
         android:background="@drawable/dollar_question_mark"
         android:layout_weight="1"
         android:layout_margin="25dp"

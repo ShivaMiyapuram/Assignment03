@@ -63,7 +63,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Go to Start"
+        android:text="Start Over"
+        android:textAllCaps="false"
         android:onClick="goToStartActivity"/>
 
 

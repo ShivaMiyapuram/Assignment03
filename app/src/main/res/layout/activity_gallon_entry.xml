@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com.example.s528748.assignment03.GallonEntryActivity"
     android:orientation="vertical"
+    android:gravity="center"
     >
 
 
@@ -15,10 +16,8 @@
         android:id="@+id/editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         android:layout_gravity="center"
-        android:layout_margin="50dp"
-
+        android:layout_margin="10dp"
         android:ems="10"
         android:inputType="numberDecimal"
         android:hint="Enter no. of gallons" />
@@ -30,6 +29,7 @@
         android:layout_gravity="center"
         android:text="Calculate price"
         android:onClick="calculatePrice"
+        android:textAllCaps="false"
         />
 
 

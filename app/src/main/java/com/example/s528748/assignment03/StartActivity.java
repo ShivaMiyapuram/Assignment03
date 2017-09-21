@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class StartActivity extends AppCompatActivity {
 
@@ -15,8 +16,8 @@ public class StartActivity extends AppCompatActivity {
     }
 
     public void onClick(View v){
-        Button b1 = (Button) findViewById(R.id.button1);
-        Button b2 = (Button) findViewById(R.id.button2);
+        ImageButton b1 = (ImageButton) findViewById(R.id.button1);
+        ImageButton b2 = (ImageButton) findViewById(R.id.button2);
         Intent intent;
         if(v.getId() == R.id.button1){
           intent = new Intent(this, GallonEntryActivity.class);
